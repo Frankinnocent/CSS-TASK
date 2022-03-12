@@ -1,0 +1,189 @@
+body{
+	background-color:white;
+	color:gray;
+	font-size:19px;
+	font-weight:normal;
+	font-family: Arial, Helvetica, serif;
+	line-height: 1.9em;
+
+}
+.box-1{
+	background-color: #333;
+	color: white;
+	text-align: 16px;
+	border-right: 5px black solid;
+	border-left:  5px red solid;
+	border-bottom: 5px yellow solid;
+	border-top: 5px blue solid;
+	border-width: 10px; 
+	border-style: double; 
+	padding:20px; 
+	margin: 20px;
+
+}
+
+a{
+	color:black;
+	text-decoration: none;
+}
+a:hover{
+	color: red;
+}
+a:active{
+	color: green;
+}
+.container{
+	width: 80%;
+	margin:auto;
+}
+
+.button{
+	background-color: black;
+	color:white;
+	padding:10px 15px;
+	border:none;
+
+}
+
+.button:hover{
+	color: red;
+}
+
+.box-1 h1{
+	font-family: tahoma;
+	font-weight: 900px;
+	font-style: italic;
+	text-decoration:underline;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	word-spacing: 1em; 
+}
+
+.box-2{
+	border:5px dotted lightgray;
+	padding:20px;
+	margin:20px 0;
+
+}
+
+.clr{
+	clear:both;
+}
+
+.categories{
+	border:1px blue solid;
+	padding: 10px;
+	border-radius: 20px;
+
+}
+
+.categories h2{
+	text-align: center;
+	color: black;
+}
+
+.categories ul{
+	padding:0;
+	padding-left: 15px;
+	list-style: square;
+	list-style: none;
+
+}
+
+.categories li{
+	padding:3px;
+	border-bottom:dotted 1.5px purple;
+	list-style-image: url('../images/f009.jpeg'); 
+}
+
+.my-form{
+	padding: 20px;
+}
+
+.my-form .form-group{
+	padding-bottom: 15px;
+
+}
+
+.my-form label{
+	display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+	padding:8px;
+	width:100%;
+}
+
+.block{
+	float: left;
+	width:33.3%;
+	border:1px solid gray;
+	padding:10px;
+	box-sizing: border-box;
+}
+
+#main-block{
+	float:left;
+	width:70%;
+	padding:15px;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	float:right;
+	width:30%;
+	background-color: black;
+	color:white;
+	padding:15px;
+	box-sizing: border-box;
+}
+
+
+.p-box{
+	width:800px;
+	height:500px;
+	border:1px solid #000;
+	margin-top:30px;
+	position:relative;
+	background-image:url(../images/camo.jpeg);
+	background-repeat: no-repeat;
+	background-position: 100px 200px;
+	background-position: center left;
+}
+
+.p-box h1{
+	position:absolute;
+	top::100px;
+	left:200px;
+}
+
+.p-box h2{
+	position:absolute;
+	bottom:40px;
+	right:400px;	
+}
+
+.fix-me{
+	position:fixed;
+	top:150px;
+	left:30px;
+}
+
+.my-list li:first-child{
+	background:red;
+}
+
+.my-list li:last-child{
+	background:blue;
+}
+
+.my-list li:nth-child(5){
+	background:red;
+}	
+
+.my-list li:nth-child(even){
+	background:orange;
+}
+
+
+
